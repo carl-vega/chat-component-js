@@ -1,0 +1,33 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 100%;
+  height: 90vh;
+}
+aside {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 100%;
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: #eeeeee;
+}
+section {
+  grid-column: 2 / 2;
+  grid-row: 1 / 3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+.message {
+  border-radius: 20px;
+  background-color: #00eeff;
+  padding: 5px 10px;
+}
+.chat {
+  list-style-type: none;
+  padding: 0;
+  margin: 16px 16px;
+}
